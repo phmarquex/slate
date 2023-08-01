@@ -71,12 +71,23 @@ html, body {
     }
   }
 
-  // This is the logo at the top of the ToC
-  .logo {
-    display: block;
-    max-width: 100%;
-    margin-bottom: $logo-margin;
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+
+    .logo {
+      display: block;
+      max-width: 70%;
+      margin-bottom: $logo-margin;
+    }
+
   }
+
+  // This is the logo at the top of the ToC
+
 
   &>.search {
     position: relative;
